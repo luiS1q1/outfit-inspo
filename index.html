@@ -37,6 +37,10 @@
   .old { color:var(--sub); text-decoration:line-through; font-size:12px; margin-left:6px; }
   footer { text-align:center; margin-top:44px; color:var(--sub); font-size:12px; font-family:Verdana,Arial,sans-serif; }
   @media (max-width:600px) { h1{font-size:32px} .look{padding:20px} .summe{margin-left:0} }
+
+  .look, .card {{ animation: fadeup .5s ease both; }}
+  .card:nth-child(2) {{ animation-delay:.08s }} .card:nth-child(3) {{ animation-delay:.16s }}
+  @keyframes fadeup {{ from {{ opacity:0; transform:translateY(14px) }} to {{ opacity:1; transform:none }} }}
 </style></head><body><div class="wrap">
 <header><div class="eyebrow">Herbst 2026</div><h1>Outfit Inspo</h1>
 <p class="sub">5 Looks von TikTok &amp; Pinterest, alle Teile von Zalando, alle unter 60 Euro pro Teil. Für 1,76 m und schlank: S oder M bei Oversize, Jeans W28/L30.</p></header>
